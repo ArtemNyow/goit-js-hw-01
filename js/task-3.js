@@ -1,4 +1,4 @@
-console.log("Task 3");
+
 function getElementWidth(content, padding, border) {
     function parsePx(value) {
         return parseFloat(value);
@@ -6,7 +6,7 @@ function getElementWidth(content, padding, border) {
     let contentWidth = parsePx(content);
     let paddingWidth = parsePx(padding)*2;
     let borderWidth = parsePx(border)*2;
-    return console.log(contentWidth + paddingWidth + borderWidth);
+    return contentWidth + paddingWidth + borderWidth;
 };
 getElementWidth("50px", "8px", "4px");
 getElementWidth("60px", "12px", "8.5px");
